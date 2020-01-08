@@ -1,0 +1,8 @@
+test\GoogleSearchTest.class
+pages\GoogleSearchPage.class
+test\Test_GoogleSearch.class
+pages\GoogleSearhPageObject.class
+test\ExtentReportDemo.class
+test\GoogleSearchPageTest.class
+SeleniumFramework\SeleniumFramework\BrowserTest.class
+test\TestNG_Demo.class
