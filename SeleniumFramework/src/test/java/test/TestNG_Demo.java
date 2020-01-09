@@ -47,9 +47,5 @@ public class TestNG_Demo {
 		driver.close();
 		//driver.quit();
 		System.out.println("Test Completed Sucessfully");
-		
-		
-		
-		
-	}
+		}
 }

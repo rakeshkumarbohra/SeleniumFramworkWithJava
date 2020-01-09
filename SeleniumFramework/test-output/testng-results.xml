@@ -1,25 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="21779" started-at="2020-01-08T17:10:45Z" finished-at="2020-01-08T17:11:07Z">
+  <suite name="Default suite" duration-ms="12251" started-at="2020-01-09T13:07:21Z" finished-at="2020-01-09T13:07:34Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="21779" started-at="2020-01-08T17:10:45Z" finished-at="2020-01-08T17:11:07Z">
-      <class name="test.TestNG_Demo">
-        <test-method status="PASS" signature="setUpTest()[pri:0, instance:test.TestNG_Demo@132ec19]" name="setUpTest" is-config="true" duration-ms="8417" started-at="2020-01-08T17:10:45Z" finished-at="2020-01-08T17:10:53Z">
+    <test name="Default test" duration-ms="12251" started-at="2020-01-09T13:07:21Z" finished-at="2020-01-09T13:07:34Z">
+      <class name="test.ExtentReportDemoWithTestNG">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:test.ExtentReportDemoWithTestNG@e45eb6]" name="setUp" is-config="true" duration-ms="181" started-at="2020-01-09T13:07:21Z" finished-at="2020-01-09T13:07:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="setUpTest()[pri:0, instance:test.ExtentReportDemoWithTestNG@e45eb6]" name="setUpTest" is-config="true" duration-ms="6055" started-at="2020-01-09T13:07:21Z" finished-at="2020-01-09T13:07:27Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpTest -->
-        <test-method status="PASS" signature="googleSearch()[pri:0, instance:test.TestNG_Demo@132ec19]" name="googleSearch" duration-ms="11093" started-at="2020-01-08T17:10:53Z" finished-at="2020-01-08T17:11:05Z">
+        <test-method status="PASS" signature="test1()[pri:0, instance:test.ExtentReportDemoWithTestNG@e45eb6]" name="test1" duration-ms="2648" started-at="2020-01-09T13:07:27Z" finished-at="2020-01-09T13:07:30Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- googleSearch -->
-        <test-method status="PASS" signature="tearDownTest()[pri:0, instance:test.TestNG_Demo@132ec19]" name="tearDownTest" is-config="true" duration-ms="2217" started-at="2020-01-08T17:11:05Z" finished-at="2020-01-08T17:11:07Z">
+        </test-method> <!-- test1 -->
+        <test-method status="PASS" signature="test2()[pri:0, instance:test.ExtentReportDemoWithTestNG@e45eb6]" name="test2" duration-ms="700" started-at="2020-01-09T13:07:30Z" finished-at="2020-01-09T13:07:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+        <test-method status="PASS" signature="tearDownTest()[pri:0, instance:test.ExtentReportDemoWithTestNG@e45eb6]" name="tearDownTest" is-config="true" duration-ms="2806" started-at="2020-01-09T13:07:31Z" finished-at="2020-01-09T13:07:34Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownTest -->
-      </class> <!-- test.TestNG_Demo -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:test.ExtentReportDemoWithTestNG@e45eb6]" name="tearDown" is-config="true" duration-ms="493" started-at="2020-01-09T13:07:34Z" finished-at="2020-01-09T13:07:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- test.ExtentReportDemoWithTestNG -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
