@@ -1,0 +1,15 @@
+
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="test.TestNG_Demo"/>
+      <class name="test.TestNG_Demo2">
+      <method>
+      <include name="googleSearch">
+      </include>
+      </method>
+      </class>
+      
+    </classes>
+  </test> 
+</suite> 

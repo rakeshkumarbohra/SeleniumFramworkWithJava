@@ -2,36 +2,38 @@
 <testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="12251" started-at="2020-01-09T13:07:21Z" finished-at="2020-01-09T13:07:34Z">
+  <suite name="Suite" duration-ms="27155" started-at="2020-01-10T13:17:44Z" finished-at="2020-01-10T13:18:11Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="12251" started-at="2020-01-09T13:07:21Z" finished-at="2020-01-09T13:07:34Z">
-      <class name="test.ExtentReportDemoWithTestNG">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:test.ExtentReportDemoWithTestNG@e45eb6]" name="setUp" is-config="true" duration-ms="181" started-at="2020-01-09T13:07:21Z" finished-at="2020-01-09T13:07:21Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="setUpTest()[pri:0, instance:test.ExtentReportDemoWithTestNG@e45eb6]" name="setUpTest" is-config="true" duration-ms="6055" started-at="2020-01-09T13:07:21Z" finished-at="2020-01-09T13:07:27Z">
+    <test name="Test" duration-ms="27155" started-at="2020-01-10T13:17:44Z" finished-at="2020-01-10T13:18:11Z">
+      <class name="test.TestNG_Demo">
+        <test-method status="PASS" signature="setUpTest()[pri:0, instance:test.TestNG_Demo@1efef64]" name="setUpTest" is-config="true" duration-ms="6694" started-at="2020-01-10T13:17:44Z" finished-at="2020-01-10T13:17:51Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpTest -->
-        <test-method status="PASS" signature="test1()[pri:0, instance:test.ExtentReportDemoWithTestNG@e45eb6]" name="test1" duration-ms="2648" started-at="2020-01-09T13:07:27Z" finished-at="2020-01-09T13:07:30Z">
+        <test-method status="PASS" signature="setUpTest()[pri:0, instance:test.TestNG_Demo2@17fd0e6]" name="setUpTest" is-config="true" duration-ms="5911" started-at="2020-01-10T13:17:51Z" finished-at="2020-01-10T13:17:57Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- test1 -->
-        <test-method status="PASS" signature="test2()[pri:0, instance:test.ExtentReportDemoWithTestNG@e45eb6]" name="test2" duration-ms="700" started-at="2020-01-09T13:07:30Z" finished-at="2020-01-09T13:07:31Z">
+        </test-method> <!-- setUpTest -->
+        <test-method status="PASS" signature="googleSearch()[pri:0, instance:test.TestNG_Demo@1efef64]" name="googleSearch" duration-ms="5253" started-at="2020-01-10T13:17:57Z" finished-at="2020-01-10T13:18:02Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- test2 -->
-        <test-method status="PASS" signature="tearDownTest()[pri:0, instance:test.ExtentReportDemoWithTestNG@e45eb6]" name="tearDownTest" is-config="true" duration-ms="2806" started-at="2020-01-09T13:07:31Z" finished-at="2020-01-09T13:07:34Z">
+        </test-method> <!-- googleSearch -->
+        <test-method status="PASS" signature="tearDownTest()[pri:0, instance:test.TestNG_Demo@1efef64]" name="tearDownTest" is-config="true" duration-ms="2103" started-at="2020-01-10T13:18:07Z" finished-at="2020-01-10T13:18:09Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:test.ExtentReportDemoWithTestNG@e45eb6]" name="tearDown" is-config="true" duration-ms="493" started-at="2020-01-09T13:07:34Z" finished-at="2020-01-09T13:07:34Z">
+        <test-method status="PASS" signature="tearDownTest()[pri:0, instance:test.TestNG_Demo2@17fd0e6]" name="tearDownTest" is-config="true" duration-ms="2095" started-at="2020-01-10T13:18:09Z" finished-at="2020-01-10T13:18:11Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- test.ExtentReportDemoWithTestNG -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+        </test-method> <!-- tearDownTest -->
+      </class> <!-- test.TestNG_Demo -->
+      <class name="test.TestNG_Demo2">
+        <test-method status="PASS" signature="googleSearch2()[pri:0, instance:test.TestNG_Demo2@17fd0e6]" name="googleSearch2" duration-ms="5050" started-at="2020-01-10T13:18:02Z" finished-at="2020-01-10T13:18:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- googleSearch2 -->
+      </class> <!-- test.TestNG_Demo2 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>
